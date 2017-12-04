@@ -1,13 +1,15 @@
 // Libraries
-// Standard
 #include <conio.h>
 #include <iostream>
-// Nonstandard
+#include <string>
+
 #include "kit.h"
 
 int main(int argc, char** argv)
 {
-	SeaJay::Kit k;
+	SeaJay::Kit kit(argc, argv);
+
+	kit.run();
 
 	_getch();
 	return 0;
