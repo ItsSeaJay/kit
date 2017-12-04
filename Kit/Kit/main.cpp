@@ -1,17 +1,14 @@
-#include <iostream>
+// Libraries
+// Standard
 #include <conio.h>
+#include <iostream>
+// Nonstandard
+#include "kit.h"
 
 int main(int argc, char** argv)
 {
-	int countArguments(int argc);
-
-	std::cout << countArguments(argc);
+	SeaJay::Kit k;
 
 	_getch();
 	return 0;
-}
-
-int countArguments(int argc)
-{
-	return argc;
 }
